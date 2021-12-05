@@ -1,0 +1,13 @@
+
+export const UPDATE_STATE = "MENU/UPDATE_STATE";
+
+export const SET_STATE = "CARDS/CARDS_STATE"
+
+export const SET_PARTS = "CARDS/CARDS_PARTS"
+
+export const SET_CAROUSEL = "CARDS/CARDS_CAROUSEL"
+
+export const SET_BRAND = "CARDS/CARDS_BRAND"
+
+
+export const SET_BURGER = "CARDS/CARDS_BURGER"

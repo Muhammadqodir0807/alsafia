@@ -1,0 +1,162 @@
+
+.item {
+  min-width: 100px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.item:hover {
+  color: rgb(255, 0, 242);
+}
+
+.navb {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.cont {
+
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 50px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+
+.section {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.line-1 {
+  width: 100%;
+  height: 200px;
+}
+
+.line-2 {
+  width: 100%;
+  height: 120px;
+}
+
+.line-3 {
+  width: 100%;
+  height: 200px;
+}
+
+.card1 {
+  width: 32%;
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0px 8px 16px rgb(190, 190, 190);
+}
+
+.card-user {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(196, 196, 196);
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.card-content {
+  height: 50%;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.mini-card {
+  width: calc(94% / 4);
+  height: 100%;
+  border-radius: 12px;
+  padding: 5px 20px;
+  box-shadow: 0px 8px 16px rgb(190, 190, 190);
+}
+
+.medium-card {
+  width: calc(98% / 2);
+  height: 100%;
+  border-radius: 12px;
+  padding: 5px 20px;
+  box-shadow: 0px 8px 16px rgb(190, 190, 190);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  width: 100%;
+  max-height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(196, 196, 196);
+  border-radius: 50%;
+}
+
+.box {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn1 {
+  border: none;
+  padding: 7px;
+  border-radius: 20px;
+  margin-left: 15px;
+  transition: 0.2s;
+}
+
+//.btn:hover {
+//  background-color: #d4d4d4;
+//}
+
+.hover {
+  transition: 0.3s;
+}
+
+.hover:hover {
+  background-color: rgb(235, 235, 235);
+}
